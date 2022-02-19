@@ -1,7 +1,3 @@
 # lenguaje5
-prueba 1
-
-prueba 2
-
-jos valdez 
+jose valdez 
 
