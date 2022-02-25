@@ -1,9 +1,10 @@
 # lenguaje5
 jose valdez 
-fuerza 
-volutad 
-lea ta 
-prueba 
+tarea tarea 
+
+luis 
+aida 
+
 
 
 
