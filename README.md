@@ -1,6 +1,11 @@
 # lenguaje5
 jose valdez 
-fuerza 
-volutad 
+tarea tarea 
+
+luis 
+aida 
+
+
+
 
 
