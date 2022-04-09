@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Ciudad del Este
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,36 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large"  >Ciudad del Este</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-content>
+  <!-- List of Text Items -->
+<ion-list>
+  <ion-item>
+    <ion-button color="medium"> Uberx </ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-button color="medium"> Bolt Economico </ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-button color="medium"> Bolt  </ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-button color="medium">Personalizar  </ion-button>
+  </ion-item>
+</ion-list>
+
+<div>
+
+ <!-- fab placed to the top and end and on the top edge of the content overlapping header -->
+ <ion-fab vertical="end" horizontal="end" edge slot="fixed">
+  <ion-fab-button>
+    <ion-icon name="compass-outline"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+</div>
+</ion-content>
+
 </ion-content>

@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      TarifApp
+    </ion-title>
+  </ion-toolbar >
+  <div>
+
+  </div>
+</ion-header  >
+
+
+
+
+<ion-content class="auth-form">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/registration']" expand="block" color="primary">Registrarse</ion-button>
+        <span class="divider line one-line"> </span>
+        <span class="already"> Ya tienes una cuenta?</span>
+        <ion-button [routerLink]="['/login']" expand="block" color="danger">Iniciar Sension</ion-button>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-content>
+    <div>
+
+      <ion-button [routerLink]="['/tabs']" expand="block" color="dark">Principal</ion-button>
+
+    </div>
+
+    </ion-content>
+
+
+</ion-content>
